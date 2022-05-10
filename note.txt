@@ -1,0 +1,82 @@
+*****************************************************
+    Learning SASS from scratch with The net.ninja
+*****************************************************
+
+Introduction:
+- SASS is an extension to CSS that can help us write more fexible style
+- Use variable, functions, conditional statements and more.
+- split our SASS files up into modules, making it easier to keep on top of CSS for large project.
+- SASS is written in RUBY
+
+NB: The browser will not understand our SASS code, therefore we need to translate it into CSS code.
+
+What we should know first?
+- SASS looks similar with a programming language, so we should be comfortable with those progrmming fundamentals
+  such as functions, variables, condition,... 
+- CSS
+
+Installing and compiling SASS:
+- There are 2 ways to install SASS on our computer:
+  First of all, by using command line but for that we need to install Rubi first because it is writting with it.
+  And then by using a stand alone application.
+  Here is the link https://sass-lang.com/install
+
+  All steps by using command line:
+  - install Rubi (https://rubyinstaller.org/downloads/)
+  - add this path: source\Ruby31-x64\bin it on path variable.
+  - install sass 
+    > gem install sass
+    > sass -v (to check if sass is installed)
+
+---------------------------------
+  With CoderCode
+---------------------------------
+
+What is SASS?
+- SASS is a CSS extension language, and gives our CSS superpower.
+- SASS is an easiest way for developper to write CSS but we need to translate it to CSS code so that the browser can 
+understand the code.
+
+There are two syntax to write SASS code:
+
+example:
+  .sass (don't need brackets)
+  
+  $font-stack: Helvetica, sans-serif
+  $primary-color: #333
+
+  body
+    font: 100% $font-stack
+    color: $primary-color
+
+
+  .scss
+
+  $font-stack: Helvetica, sans-serif;
+  $primary-color: #333;
+
+  body {
+    font: 100% $font-stack;
+    color: $primary-color;
+  }
+
+  .css
+  body {
+    font: 100% Helvetica, sans-serif;
+    color: #333;
+  }
+
+How to compile SASS?
+With visual studio, we can use live compiler sass extension.
+After installing it, set your json setting (visual studio setting).
+
+- The map css file tell us about the location of sass file.
+
+
+
+
+
+
+    
+
+

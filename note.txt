@@ -110,6 +110,18 @@ Example:
 $font-size: 12px;
 
 
+/* Remind */
+The root selector: 
+The :root selector allows you to target the highest-level “parent” element in the DOM, or document tree.
+
+@use rules:
+The @use rule loads mixins, functions, and variables from other Sass stylesheets, and combines CSS from multiple stylesheets together. 
+Stylesheets loaded by @use are called "modules".
+
+The simplest @use rule is written @use "<url>", which loads the module at the given URL.
+43:..=> Responsive design
+
+
 
 
 
